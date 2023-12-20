@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8bebaf6-cd64-419b-b6f9-f7faeb96ed93" name="Changes" comment="push services V1" />
+    <list default="true" id="a8bebaf6-cd64-419b-b6f9-f7faeb96ed93" name="Changes" comment="Externalize services configuration">
+      <change afterPath="$PROJECT_DIR$/config-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/java/com/enset/configservice/ConfigServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/java/com/enset/configservice/ConfigServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/products-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,7 +53,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "D:/S5/destributed systems/Activite2",
+    "last_opened_file_path": "D:/S5/destributed systems/Billings-mangement/billing-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,10 +62,23 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "a44af79febf488fa38e073e565fef3f3",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\S5\destributed systems\Billings-mangement\products-service" />
+      <recent name="D:\S5\destributed systems\Billings-mangement\gateway" />
+      <recent name="D:\S5\destributed systems\Billings-mangement\discovery-service" />
+      <recent name="D:\S5\destributed systems\Billings-mangement\customer-service" />
+      <recent name="D:\S5\destributed systems\Billings-mangement\config-service" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -67,7 +86,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.CustomerServiceApplication">
     <configuration name="BillingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="billing-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.enset.billingservice.BillingServiceApplication" />
@@ -125,6 +144,8 @@
       <workItem from="1698610383007" duration="431000" />
       <workItem from="1698610839784" duration="6753000" />
       <workItem from="1703034415467" duration="1971000" />
+      <workItem from="1703037161470" duration="2302000" />
+      <workItem from="1703039595805" duration="3036000" />
     </task>
     <task id="LOCAL-00001" summary="Add config service">
       <option name="closed" value="true" />
@@ -142,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703036233985</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Externalize services configuration">
+      <option name="closed" value="true" />
+      <created>1703037778896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703037778896</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +192,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add config service" />
     <MESSAGE value="push services V1" />
-    <option name="LAST_COMMIT_MESSAGE" value="push services V1" />
+    <MESSAGE value="Externalize services configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Externalize services configuration" />
   </component>
 </project>
